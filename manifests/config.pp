@@ -120,6 +120,7 @@ class elasticsearch::config {
         changes => [
           'rm CONF_FILE',
           'rm CONF_DIR',
+          'set ES_PATH_CONF "/etc/elasticsearch"',
         ],
       }
 
