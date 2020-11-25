@@ -120,7 +120,6 @@ class elasticsearch::config {
         changes => [
           'rm CONF_FILE',
           'rm CONF_DIR',
-          'rm ES_PATH_CONF',
         ],
       }
 
